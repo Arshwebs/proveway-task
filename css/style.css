@@ -149,20 +149,11 @@ select,
 /* table */
 .bundle-item-table {
 	padding-left: 1rem;
-
-	/* 
 	display: none;
-	transition: width 5s ease-out; */
-	transition: opacity 1s ease-out;
-	opacity: 0;
-	height: 0;
-	overflow: hidden;
 }
 
 .visible {
-	/* display: inline-block; */
-	opacity: 1;
-	height: auto;
+	display: inline-block;
 }
 
 .header-label {
